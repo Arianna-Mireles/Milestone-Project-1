@@ -2,3 +2,11 @@
 h1 {
     color: palevioletred
 }
+
+:root {
+    --taupe: #423629;
+    --dark-moss-green: #4F5D2F;
+    --cornsilk: #FEFAE0;
+    --cool-gray: #938BA1;
+    --tigers-eye: #BC6C25;
+} 
