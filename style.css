@@ -1,7 +1,7 @@
 /* test for proper link to html */
-h1 {
+/* h1 {
     color: palevioletred
-}
+} */
 
 :root {
     --taupe: #423629;
@@ -14,4 +14,12 @@ h1 {
 body {
     background-image: url('/Milestone-Project-1/assets/hills.png');
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1#title {
+    font-family: "Roboto", serif;
+    color: var(--taupe);
+    font-size: 50px;
+    text-align: center;
 }
