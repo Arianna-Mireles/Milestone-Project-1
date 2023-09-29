@@ -10,3 +10,8 @@ h1 {
     --cool-gray: #938BA1;
     --tigers-eye: #BC6C25;
 } 
+
+body {
+    background-image: url('/Milestone-Project-1/assets/hills.png');
+    background-size: cover;
+}
