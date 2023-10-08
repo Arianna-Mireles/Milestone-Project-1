@@ -12,7 +12,7 @@ body {
     background-repeat: repeat;
 }
 
-h1#title {
+h1 {
     font-family: "Roboto", serif;
     color: var(--taupe);
     font-size: 50px;
@@ -21,7 +21,15 @@ h1#title {
     overflow: hidden;
 }
 
-.balloon {
+h2 {
+    font-family: "Roboto", serif;
+    color: var(--tigers-eye);
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.balloon1 {
     width: 100px;
     height: 150px;
     background-color: red;
@@ -30,7 +38,59 @@ h1#title {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    animation: floatUp 7s linear infinite;
+    animation-name: floatUp;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.balloon2 {
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    bottom: 0;
+    left: 35%;
+    transform: translateX(-50%);
+    animation-name: floatUp;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.balloon3 {
+    width: 100px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    bottom: 0;
+    left: 75%;
+    transform: translateX(-50%);
+    animation-name: floatUp;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.balloon4 {
+    width: 100px;
+    height: 150px;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    bottom: 0;
+    left: 15%;
+    transform: translateX(-50%);
+    animation-name: floatUp;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
 }
   
 @keyframes floatUp {
@@ -39,6 +99,6 @@ h1#title {
     }
   
     100% {
-      transform: translateX(-50%) translateY(-300px);
+      transform: translateX(-50%) translateY(-1000px);
     }
 }

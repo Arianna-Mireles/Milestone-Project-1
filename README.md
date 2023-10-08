@@ -1,4 +1,4 @@
-# Balloon Pop
+# Game Title 
 
 ![Game Screenshot](screenshot.png)
 
