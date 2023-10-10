@@ -1,6 +1,6 @@
 # Game Title 
 
-![Game Screenshot](screenshot.png)
+![Game Screenshot](/Milestone-Project-1/assets/gameScreenshot.png)
 
 ## Description
 
