@@ -5,6 +5,7 @@ const balloon4 = document.getElementById('balloon4');
 const balloon5 = document.getElementById('balloon5');
 const balloon6 = document.getElementById('balloon6');
 const startAnimationButton = document.getElementById('startAnimation');
+let io = document.querySelectorAll('#function span');
 let score = 0;
 
 startAnimationButton.addEventListener('click', () => {
@@ -19,24 +20,36 @@ startAnimationButton.addEventListener('click', () => {
 // this is to pop the balloons and score system
 document.getElementById('balloon1').onclick = function() {
     document.getElementById('balloon1').style.display = 'none';
+    score = score += 1;
+    io[0].innerText = score;
 }
 
 document.getElementById('balloon2').onclick = function() {
     document.getElementById('balloon2').style.display = 'none';
+    score = score += 1;
+    io[0].innerText = score;
 }
 
 document.getElementById('balloon3').onclick = function() {
     document.getElementById('balloon3').style.display = 'none';
+    score = score += 1;
+    io[0].innerText = score;
 }
 
 document.getElementById('balloon4').onclick = function() {
     document.getElementById('balloon4').style.display = 'none';
+    score = score += 1;
+    io[0].innerText = score;
 }
 
 document.getElementById('balloon5').onclick = function() {
     document.getElementById('balloon5').style.display = 'none';
+    score = score += 1;
+    io[0].innerText = score;
 }
 
 document.getElementById('balloon6').onclick = function() {
     document.getElementById('balloon6').style.display = 'none';
+    score = score += 1;
+    io[0].innerText = score;
 }
