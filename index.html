@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milestone Project 1</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
     <style>
 
     </style>
 </head>
 <body>
-    <h1 id="title">Pop the Balloons!</h1>
-    <h2 id="instructions">Pop all the balloons before they reach the top</h2>
+    <header>
+        <h1 id="title">Pop the Balloons!</h1>
+        <h2 id="instructions">Pop all the balloons before they reach the top</h2>
+        <div class="score">Score: <span id="score">0</span></div>
+    </header>
+
     <button id="startAnimation">Click here to start</button>
-    <div class="balloon1" id="balloon1"></div>
-    <div class="balloon2" id="balloon2"></div>
-    <div class="balloon3" id="balloon3"></div>
-    <div class="balloon4" id="balloon4"></div>
-    <div class="balloon5" id="balloon5"></div>
-    <div class="balloon6" id="balloon6"></div>
+
+    <section class="balloons">
+        <div class="balloon1" id="balloon1"></div>
+        <div class="balloon2" id="balloon2"></div>
+        <div class="balloon3" id="balloon3"></div>
+        <div class="balloon4" id="balloon4"></div>
+        <div class="balloon5" id="balloon5"></div>
+        <div class="balloon6" id="balloon6"></div>
+    </section>
 
     <script src="script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

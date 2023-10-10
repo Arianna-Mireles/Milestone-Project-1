@@ -29,6 +29,14 @@ h2 {
     overflow: hidden;
 }
 
+.score {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--taupe);
+    background-color: var(--tigers-eye);
+}
+
 .balloon1 {
     width: 100px;
     height: 150px;
@@ -39,7 +47,7 @@ h2 {
     left: 50%;
     transform: translateX(-50%);
     animation-name: floatUp;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-play-state: paused;
@@ -55,7 +63,7 @@ h2 {
     left: 35%;
     transform: translateX(-50%);
     animation-name: floatUp;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-play-state: paused;
@@ -71,7 +79,7 @@ h2 {
     left: 75%;
     transform: translateX(-50%);
     animation-name: floatUp;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-play-state: paused;
@@ -87,11 +95,45 @@ h2 {
     left: 15%;
     transform: translateX(-50%);
     animation-name: floatUp;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-play-state: paused;
 }
+
+.balloon5 {
+    width: 100px;
+    height: 150px;
+    background-color: var(--cornsilk);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    bottom: 0;
+    left: 5%;
+    transform: translateX(-50%);
+    animation-name: floatUp;
+    animation-duration: 13s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.balloon6 {
+    width: 100px;
+    height: 150px;
+    background-color: var(--dark-moss-green);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+    bottom: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    animation-name: floatUp;
+    animation-duration: 14s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+
   
 @keyframes floatUp {
     0% {
