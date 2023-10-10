@@ -30,7 +30,11 @@ h2 {
 }
 
 .score {
+    width: 100px;
+    margin-left: 50%;
+    margin-top: 15px;
     text-align: center;
+    text-shadow: 2px 2px 5px #FEFAE0;
     font-size: 1.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--taupe);
