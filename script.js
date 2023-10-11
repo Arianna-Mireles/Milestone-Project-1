@@ -10,7 +10,7 @@ let io = document.querySelectorAll('#function span');
 let score = 0;
 
 
-
+// make balloons 'float' to the top of the screen
 startAnimationButton.addEventListener('click', () => {
     balloon1.style.animationPlayState = 'running';
     balloon2.style.animationPlayState = 'running';
@@ -19,11 +19,6 @@ startAnimationButton.addEventListener('click', () => {
     balloon5.style.animationPlayState = 'running';
     balloon6.style.animationPlayState = 'running';
 });
-
-setTimeout(() => {
-    msg.textContent = 'Game Over! Refresh page to play again'
-}, 10000)
-
 
 // this is to pop the balloons and score system
 // this can be turned into a function eventually
@@ -62,3 +57,8 @@ document.getElementById('balloon6').onclick = function() {
     score = score += 1;
     io[0].textContent = score;
 }
+
+// timer for the end of the game
+setTimeout(() => {
+    msg.textContent = 'Game Over! Refresh page to play again'
+}, 10000)

@@ -10,6 +10,7 @@ body {
     background-image: url('/Milestone-Project-1/assets/background.png');
     background-size: cover;
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -36,8 +37,8 @@ h3 {
     text-align: center;
     background-color: white;
     letter-spacing: 3px;
-    border: 2px black;
-    border-style: dotted;
+    border: 2px white;
+    border-style: solid;
     border-radius: 12px;
     padding: 5px;
 }
