@@ -20,49 +20,47 @@ startAnimationButton.addEventListener('click', () => {
     balloon6.style.animationPlayState = 'running';
 });
 
+// timer for the end of the game
+startAnimationButton.addEventListener('click', () => {
+    setTimeout(() => {
+        msg.textContent = 'Game Over! Refresh the page to play again'
+    }, 10000);
+});
+
 // this is to pop the balloons and score system
 // this can be turned into a function eventually
 document.getElementById('balloon1').onclick = function() {
     document.getElementById('balloon1').style.display = 'none';
     score = score += 1;
     io[0].textContent = score;
-}
+};
 
 document.getElementById('balloon2').onclick = function() {
     document.getElementById('balloon2').style.display = 'none';
     score = score += 1;
     io[0].textContent = score;
-}
+};
 
 document.getElementById('balloon3').onclick = function() {
     document.getElementById('balloon3').style.display = 'none';
     score = score += 1;
     io[0].textContent = score;
-}
+};
 
 document.getElementById('balloon4').onclick = function() {
     document.getElementById('balloon4').style.display = 'none';
     score = score += 1;
     io[0].textContent = score;
-}
+};
 
 document.getElementById('balloon5').onclick = function() {
     document.getElementById('balloon5').style.display = 'none';
     score = score += 1;
     io[0].textContent = score;
-}
+};
 
 document.getElementById('balloon6').onclick = function() {
     document.getElementById('balloon6').style.display = 'none';
     score = score += 1;
     io[0].textContent = score;
-}
-
-// timer for the end of the game
-
-
-startAnimationButton.addEventListener('click', () => {
-    setTimeout(() => {
-        msg.textContent = 'Game Over! Refresh the page to play again'
-    }, 10000)
-})
+};
