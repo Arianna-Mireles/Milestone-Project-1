@@ -29,10 +29,22 @@ h2 {
     overflow: hidden;
 }
 
+h3 {
+    font-family: fantasy;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    background-color: white;
+    letter-spacing: 3px;
+    border: 2px black;
+    border-style: dotted;
+    border-radius: 12px;
+    padding: 5px;
+}
+
 #function {
     width: 100px;
-    margin-left: 50%;
-    margin-top: 15px;
+    margin: auto;
     text-align: center;
     text-shadow: 2px 2px 5px #FEFAE0;
     font-size: 1.5em;
@@ -137,7 +149,13 @@ h2 {
     animation-play-state: paused;
 }
 
-
+#startAnimation {
+    height: 50px;
+    width: 80px;
+    color:#4e2d11;
+    background-color: rgb(236, 149, 163);
+    border-color: azure;
+}
   
 @keyframes floatUp {
     0% {
