@@ -64,7 +64,7 @@ h3 {
     left: 50%;
     transform: translateX(-50%);
     animation-name: floatUp;
-    animation-duration: 10s;
+    animation-duration: 11s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-play-state: paused;
@@ -80,7 +80,7 @@ h3 {
     left: 35%;
     transform: translateX(-50%);
     animation-name: floatUp;
-    animation-duration: 10s;
+    animation-duration: 11s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-play-state: paused;
@@ -96,7 +96,7 @@ h3 {
     left: 75%;
     transform: translateX(-50%);
     animation-name: floatUp;
-    animation-duration: 10s;
+    animation-duration: 11s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-play-state: paused;
@@ -112,7 +112,7 @@ h3 {
     left: 15%;
     transform: translateX(-50%);
     animation-name: floatUp;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-play-state: paused;
@@ -164,6 +164,6 @@ h3 {
     }
   
     100% {
-      transform: translateX(-50%) translateY(-1000px);
+      transform: translateX(-50%) translateY(-1500px);
     }
 }
