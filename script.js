@@ -60,5 +60,5 @@ document.getElementById('balloon6').onclick = function() {
 
 // timer for the end of the game
 setTimeout(() => {
-    msg.textContent = 'Game Over! Refresh page to play again'
+    msg.textContent = 'Game Over! Refresh the page to play again'
 }, 10000)

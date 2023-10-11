@@ -1,6 +1,6 @@
-# Game Title 
+# Balloon Pop! 
 
-![Game Screenshot](/Milestone-Project-1/assets/gameScreenshot.png)
+![/Milestone-Project-1/assets/gameScreenshot.png]()
 
 ## Description
 
